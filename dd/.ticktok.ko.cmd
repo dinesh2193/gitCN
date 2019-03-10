@@ -1,0 +1,1 @@
+cmd_/home/dinnu/CN/dd/ticktok.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/dinnu/CN/dd/ticktok.ko /home/dinnu/CN/dd/ticktok.o /home/dinnu/CN/dd/ticktok.mod.o ;  true
